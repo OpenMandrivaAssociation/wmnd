@@ -15,6 +15,7 @@ BuildRequires:	libx11-devel
 BuildRequires:	libxext-devel
 BuildRequires:	libxpm-devel
 BuildRequires:	libsm-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 WMND (WindowMaker Network Devices) is a network monitoring
