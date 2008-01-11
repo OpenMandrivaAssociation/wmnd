@@ -45,12 +45,6 @@ mkdir -p $RPM_BUILD_ROOT%{_mandir}/man1/
 install -m 755 src/wmnd $RPM_BUILD_ROOT%{_bindir}/wmnd
 install -m 644 doc/wmnd.1 $RPM_BUILD_ROOT%{_mandir}/man1/wmnd.1
 
-install -m 755 -d $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}):command="%{_bindir}/%{name}" icon="%{name}.png"\\
-                 needs="X11" section="System/Monitoring" title="Wmnd"\\
-                 longtitle="Network monitoring dock app" xdg="true"
-EOF
 
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop <<EOF
@@ -86,7 +80,6 @@ EOF
 %{_liconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 
 
