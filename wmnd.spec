@@ -1,5 +1,5 @@
 %define version 0.4.12
-%define release %mkrel 5
+%define release %mkrel 6
 %define name wmnd
 
 Summary:	A dockapp for monitoring network interfaces
