@@ -68,3 +68,57 @@ EOF
 %{_datadir}/wmndrc
 
 
+
+
+%changelog
+* Tue Oct 18 2011 Matthew Dawkins <mattydaw@mandriva.org> 0.4.16-1
++ Revision: 705252
+- new version 0.4.16
+  cleaned up spec file
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 0.4.12-7mdv2010.0
++ Revision: 434892
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 0.4.12-6mdv2009.0
++ Revision: 262060
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 0.4.12-5mdv2009.0
++ Revision: 256209
+- rebuild
+- drop old menu
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Thu Jan 03 2008 Olivier Blin <blino@mandriva.org> 3mdv2008.1-current
++ Revision: 140932
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - kill desktop-file-validate's 'warning: key "Encoding" in group "Desktop Entry" is deprecated'
+
+
+* Tue Feb 06 2007 Gustavo De Nardin <gustavodn@mandriva.com> 0.4.12-3mdv2007.0
++ Revision: 116895
+- fixed .desktop file Comment
+
+* Mon Jan 29 2007 Gustavo De Nardin <gustavodn@mandriva.com> 0.4.12-2mdv2007.1
++ Revision: 115170
+- menu migrated to XDG scheme, for great compliance
+- cleanup
+  . manpages are compressed automatically
+  . removing generic FSF 'INSTALL' from package as it is mostly useless
+
+* Mon Jan 29 2007 Gustavo De Nardin <gustavodn@mandriva.com> 0.4.12-1mdv2007.1
++ Revision: 114943
+- new version 0.4.12
+- fixed Group and menu category, better Summary
+- fixed BuildRequires
+- spec cleanup
+
+* Sat Sep 11 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.4.9-1mdk
+- 0.4.9
+
