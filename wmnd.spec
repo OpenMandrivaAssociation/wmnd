@@ -1,7 +1,7 @@
 Summary:	A dockapp for monitoring network interfaces
 Name:		wmnd
 Version:	0.4.16
-Release:	2
+Release:	3
 License:	GPLv2
 Group:		Monitoring
 Source0:	http://www.thregr.org/~wavexx/software/wmnd/releases/%{name}-%{version}.tar.gz
