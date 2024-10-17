@@ -6,7 +6,7 @@ License:	GPLv2
 Group:		Monitoring
 Source0:	http://www.thregr.org/~wavexx/software/wmnd/releases/%{name}-%{version}.tar.gz
 Source1:	%{name}-icons.tar.bz2
-URL:		http://www.thregr.org/~wavexx/software/wmnd/
+URL:		https://www.thregr.org/~wavexx/software/wmnd/
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(xpm)
