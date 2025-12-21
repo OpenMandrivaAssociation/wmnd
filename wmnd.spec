@@ -7,6 +7,11 @@ Group:		Monitoring
 Source0:	http://www.thregr.org/~wavexx/software/wmnd/releases/%{name}-%{version}.tar.gz
 Source1:	%{name}-icons.tar.bz2
 URL:		https://www.thregr.org/~wavexx/software/wmnd/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(xpm)
